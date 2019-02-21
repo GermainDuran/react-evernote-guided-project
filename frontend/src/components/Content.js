@@ -3,23 +3,19 @@ import NoteEditor from './NoteEditor';
 import NoteViewer from './NoteViewer';
 import Instructions from './Instructions';
 
-/*
-  Advice: If you cannot figure out how to get this component to work,
-          move the div and renderContent up into NoteContainer and
-          try to get it to work in the parent first.
-          Then complete the rest of your app before attempting to
-          refactor to get this Content component to work.
-*/
+
 class Content extends Component {
   renderContent = () => {
-    if (false) {
-      return <NoteEditor />;
-    } else if (false) {
-      return <NoteViewer />;
+    if (this.props.showState && this.props.cancelState) {
+      console.log('arturo Edit',this.props.handleEdit);
+      return <NoteEditor  noteEdit={this.props.noteEdit} handleEdit={this.props.handleEdit} handleCancel={this.props.handleCancel} fetchNotes={this.props.fetchNotes} showState={this.props.showState} handleDelete={this.props.handleDelete} handleClick={this.props.handleClick} />;
+    } else if (this.props.noteDetail) {
+      return <NoteViewer handleEdit={this.props.handleEdit} noteDetail={this.props.noteDetail}  />;
     } else {
       return <Instructions />;
     }
   }
+
 
   render() {
     return (

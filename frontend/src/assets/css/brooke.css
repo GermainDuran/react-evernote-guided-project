@@ -12,6 +12,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url("https://sphadvising.commons.gc.cuny.edu/files/2017/08/Bookstire-1.jpg");
+  background-size: cover;
 }
 
 
@@ -20,30 +22,51 @@ h2, input[name="title"], textarea {
   font-family: 'IBM Plex Mono'
 }
 
+h3 {
+  color: white;
+  	font-size: 50px;
+    text-shadow: 2px 2px 20px red;
+}
+
+h4 {
+  color: white;
+  	font-size: 45px;
+    /* text-shadow: 2px 2px 20px blue; */
+}
+
+
+p4{
+  font-size: 20px;
+  color: white;
+}
+
+
 p.instructions {
 	font-family: monospace;
-	font-size: 32px;
+	font-size: 40px;
 	text-align: center;
+  color: white;
 }
 
 .note-editor input[name="title"] {
   font-size: 24px;
-  font-weight: 700;
-  border: 1px dashed grey;
+  font-weight: 1000;
+  border: 1px dashed red;
   margin: 0.5em 0;
   box-sizing: border-box;
 }
 
 .note-editor textarea {
   font-size: 1em;
-  border: 1px dashed grey;
+  border: 1px dashed red;
   box-sizing: border-box;
   resize: none;
 }
 
 .nav-bar {
-  width: 100%;
-  background-image: linear-gradient(to right top, #8C33E3, #696CE8, #4A9EEC);
+  /* width: 100%; */
+  background-image: url('http://carolynjarvisartist.com/uploads/2/4/4/2/24420703/warm-waters-painting-by-carolyn-jarvis-web_1_orig.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: 'IBM Plex Mono';
   font-size: 16px;
@@ -54,12 +77,21 @@ p.instructions {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 10px;
+  border-radius: 25px;
+  height: 80px;
+
+}
+
+h2 {
+text-shadow: 2px 2px 50px green;
 }
 
 .nav-item {
   list-style: none;
   color: white;
   padding: 4px;
+
+
 }
 
 .filter {
@@ -67,7 +99,9 @@ p.instructions {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 2px dashed grey;
+  border: 2px dashed red;
+
+
 }
 
 input {
@@ -92,6 +126,7 @@ div.sidebar ul {
   padding: 0;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 div.sidebar ul li {
@@ -106,7 +141,8 @@ div.sidebar ul li:first-child {
 
 div.sidebar ul li:hover {
   /* background-color: yellow; */
-  background-image: linear-gradient(#E6E6E6, #F7F7F7);
+  background-image: linear-gradient(white, yellow);
+  /* #E6E6E6, #F7F7F7 */
   background-repeat: no-repeat;
 }
 
@@ -125,13 +161,18 @@ div.sidebar ul li:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+
 }
 
 .master-detail-element {
   float:left;
   margin: 10px 0px;
   padding: 20px;
-  border: 2px dashed grey;
+  border: 2px dashed red;
+   border-radius: 25px;
+
+
 }
 
 .sidebar {
@@ -141,6 +182,8 @@ div.sidebar ul li:hover {
 
 .detail {
   width:75%;
+
+
 }
 
 .note-editor {
@@ -170,7 +213,8 @@ button, input[type="submit"] {
   margin-right: 10px;
   padding: 5px 35px;
   border: 0px;
-  background-image: linear-gradient(to right top, #8C33E3, #696CE8, #4A9EEC);
+  background-image: linear-gradient(blue,blue);
+  /* to right top, #8C33E3, #696CE8, #4A9EEC */
   background-repeat: no-repeat;
   color: white;
   font-size: 14px;
