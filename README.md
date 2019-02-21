@@ -1,9 +1,6 @@
 README: React Evernote
 ======================
 
-Task Lister is making its return in React! However, this time we'll be kicking it up a notch and using that same backend to drive an Evernote-like frontend built in React.
-
-Your goal will be to complete the baseline deliverables using the provided starter code and then make this project your own by building out unique stretch goals. Some suggestions are listed below, but try to be creative!
 
 ## Requirements
 
@@ -55,17 +52,6 @@ The seed file should create one user for you, so your default `USER_ID` should b
 * Test out your routes with [Postman](https://www.getpostman.com/) to see how they work and what they return.
 * Look at the source code! There are many more routes that are not listed that may make your life easier. Use those development skills and hack the code!
 
-## Provided Code
-
-**Backend**
-
-* The entire backend API is complete for the baseline deliverables.
-* You should not have to modify this code unless you want to add stretch features that are not currently supported by this API.
-
-**Frontend**
-
-* All CSS styles are provided for you.
-* Many components are provided for you, but most are not completely functional. It is your job to read the code and figure out how to incorporate it into your app.
 
 ## Deliverables
 
