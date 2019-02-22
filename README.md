@@ -1,6 +1,11 @@
-README: React Evernote
+README: React Evernote-NotesCreator
 ======================
+NotesCreator is an app where users can create, edit, delete, filter notes and keep a record of them.
++ Designed internal API with Ruby on Rails to enable full CRUD for notes.
++ Leveraging React and JavaScript for design on the front end.         
++ Utilized CSS for styling the user interface.
 
+Demo: 
 
 ## Requirements
 
@@ -9,7 +14,7 @@ README: React Evernote
 
 ## Setup
 
-The codebase is split up into a Rails API backend and a React frontend. Everything is contained in this single repository. Your Rails code is located inside of the `backend` folder and your React code is located inside of the `frontend` folder.
+The codebase is split up into a Rails API backend and a React frontend. Everything is contained in this single repository. The Rails code is located inside of the `backend` folder and your React code is located inside of the `frontend` folder.
 
 Each of those folders has a README file with setup instructions. For conciseness, those instructions are copy pasted here:
 
@@ -32,7 +37,7 @@ rails db:create db:migrate db:seed
 rails s
 ```
 
-Your Rails backend API will be running on `http://localhost:3000`.
+Thw Rails backend API will be running on `http://localhost:3000`.
 
 #### User ID
 
